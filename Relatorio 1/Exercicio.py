@@ -34,8 +34,6 @@ class Aula:
             presenca = presenca + aluno.presenca() + '\n'
     
         return presenca
-        
-        
 
 
 if __name__ == "__main__":
