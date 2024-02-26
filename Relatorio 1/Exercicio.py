@@ -49,6 +49,7 @@ if __name__ == "__main__":
     aluno2 = Aluno("Thomas vitu")
     aluno3 = Aluno("Jm")       
     aluno4 = Aluno("Pedro Vilela")
+    aluno5= Aluno("Nariz")
 
     
     #Criando Aula
@@ -62,6 +63,7 @@ if __name__ == "__main__":
     aula.adicionar_aluno(aluno2)
     aula.adicionar_aluno(aluno3)
     aula.adicionar_aluno(aluno4)
+    aula.adicionar_aluno(aluno5)
 
   
 
