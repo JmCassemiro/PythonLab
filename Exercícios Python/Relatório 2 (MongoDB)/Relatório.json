@@ -1,0 +1,22 @@
+[
+    {
+        "_id": "Aula 1",
+        "Professor": "Estevão da massa",
+        "Assunto": "Calculo 2",
+        "Alunos": ["Thomas vitu", "Jm", "Pedro vilela", "Pedro Vilas", "Nariz"]
+    },
+
+    {
+        "_id": "Aula 2",
+        "Professor": "Marcelo",
+        "Assunto": "Paradigmas",
+        "Alunos": ["Thomas vitu", "Jm", "Pedro vilela", "Pedro Vilas", "Nariz"]
+    },
+
+    {
+        "_id": "Aula 3",
+        "Professor": "Jonas",
+        "Assunto": "Bando de dados II",
+        "Alunos": ["Thomas vitu", "Jm", "Pedro vilela", "Pedro Vilas", "Nariz"]
+    }
+]

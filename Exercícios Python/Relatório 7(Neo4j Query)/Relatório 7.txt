@@ -1,0 +1,44 @@
+1) Agregações:
+
+
+ MATCH (a:Airport) RETURN COUNT(a) AS Total_Aeroportos
+
+ MATCH (a:Airport) RETURN AVG(a.altitude) AS Altitude_Media
+
+ MATCH (a:Airport) RETURN MAX(a.longest) AS Maior_Pista
+
+ MATCH (a:Airport) RETURN MIN(a.runways) AS Menor_Numero_Pistas
+
+ MATCH (a:Airport) WHERE a.city = 'Houston' RETURN COUNT(a) AS Aeroportos_Houston
+
+
+
+
+
+2) Funções matemáticas:
+
+ MATCH (a:Airport) RETURN AVG(a.pagerank) AS Media_Pagerank
+ 
+ MATCH (a:Airport) RETURN SUM(a.runways) AS Total_Pistas
+
+ MATCH (a:Airport) RETURN MAX(a.altitude) AS Maior_Altitude
+
+ MATCH (a:Airport) RETURN MIN(a.altitude) AS Menor_Altitude
+
+ MATCH (a:Airport) RETURN ROUND(AVG(a.longest)) AS Media_Redonda_Pistas
+
+
+
+
+
+3) Funções de String:
+
+ MATCH (a:Airport) WHERE a.city STARTS WITH 'H' RETURN a AS Aeroportos_Cidade_H
+
+ MATCH (a:Airport) WHERE a.descr CONTAINS 'Intercontinental' RETURN a AS Aeroportos_Intercontinentais
+
+ MATCH (a:Airport) WHERE a.iata ENDS WITH 'H' RETURN a AS Aeroportos_IATA_H
+
+ MATCH (a:Airport) RETURN toLower(a.city) AS Cidades_Aeroportos
+
+ MATCH (a:Airport) RETURN toUpper(a.iata) AS IATA_Aeroportos
