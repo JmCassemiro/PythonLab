@@ -1,4 +1,4 @@
-# Projeto PythonLab - Banco de Dados (MongoDB e Neo4j)
+# Exercícios Python - Banco de Dados (MongoDB e Neo4j)
 
 Este repositório contém exemplos de utilização de bancos de dados NoSQL, como **MongoDB** e **Neo4j**, com a linguagem **Python**. O projeto está dividido em diferentes relatórios que abordam os tópicos relacionados ao uso de cada banco de dados.
 
