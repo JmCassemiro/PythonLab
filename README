@@ -6,10 +6,11 @@ Este repositório contém exemplos de utilização de bancos de dados NoSQL, com
 
 O repositório está organizado da seguinte forma:
 
-  - **relatorios/**: Contém os relatórios explicativos e exercícios práticos com MongoDB e Neo4j.
+- **relatorios/**: Contém os relatórios explicativos e exercícios práticos com MongoDB e Neo4j.
   - **MongoDB/**: Relatórios e exercícios sobre o uso de MongoDB.
   - **Neo4j/**: Relatórios e exercícios sobre o uso de Neo4j.
   
+- **scripts/**: Scripts Python que demonstram como interagir com os bancos de dados.
 
 ## Tecnologias Utilizadas
 
@@ -17,8 +18,16 @@ O repositório está organizado da seguinte forma:
 - **Neo4j**: Banco de dados gráfico.
 - **Python**: Linguagem utilizada para interagir com os bancos de dados.
 
+## Como Executar o Projeto
+
 ### Requisitos
 
 - **Python 3.x**
 - **MongoDB** ou **Neo4j** (pode ser local ou em nuvem).
 
+### Instalação
+
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/JmCassemiro/PythonLab.git
+   cd PythonLab
